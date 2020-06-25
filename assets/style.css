@@ -1,0 +1,60 @@
+
+
+h1 {
+ color:darkblue;
+ font-size: 30px;
+ font-weight: bold;
+}
+
+p {
+  margin: 25px;
+  color: blueviolet;
+}
+
+.clearfix::after {
+ content: "";
+ display: block;
+ clear: table;
+}
+
+
+#q_user_name{
+  background: rgb(255, 255, 153);
+  font-size: 20px;
+  font-family: Georgia;
+  color: blueviolet;
+
+}
+
+body {
+  background: lightblue;
+  font-family: Georgia;
+}
+
+
+
+ /* footer {
+   padding: 20px;
+   color: #ffffff;
+   background: turquoise;
+   text-align: center;
+   border-top: 4px solid red;
+   font-size: 15px;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   right: 0; 
+   width: 100%;
+} */
+
+
+.container {
+  margin: 25px;
+  color:red;
+  font-size: 20px;
+}
+
+section .container {
+ padding-top: 2%;
+}
+
