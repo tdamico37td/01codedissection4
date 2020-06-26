@@ -26,10 +26,7 @@ p {
 
 }
 
-body {
-  background: lightblue;
-  font-family: Georgia;
-}
+
 
 
 
@@ -52,9 +49,27 @@ body {
   margin: 25px;
   color:red;
   font-size: 20px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
+  text-align: center;
+  padding: 3%;
+  width: 75%;
+  margin: 5% auto;
 }
 
 section .container {
  padding-top: 2%;
 }
 
+body {
+  background: url(https://images.unsplash.com/photo-1471079688237-3ac9a55f1d6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80) fixed no-repeat; 
+  background-size: 100vw;
+  font-family: Georgia;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .center{
+    width: 100%;
+  }
+}
